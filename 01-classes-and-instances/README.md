@@ -39,3 +39,16 @@ For all examples below, assume an instance of `Movie` is created like this:
     >>> endgame.released_for()
     datetime.timedelta(days=444)
     ```
+
+## Test Suite
+There are tests written for each requirement above. You should run these and try to pass them. If your solution has passed without anything hardcoded, you should be good to go.
+
+### Running the Test Suite
+To run the test suite, you should run the following command in your terminal:
+
+```cmd
+python run_tests.py
+```
+**Note:** You may have to replace the `python` with the command you normally use to run Python from the command line. It may be `py`, `python3`, or `python` as shown above.
+
+This test suite requires **at least Python 3.7** to run. It is also confirmed to work on Python 3.8.
