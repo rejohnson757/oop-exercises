@@ -1,5 +1,5 @@
 # Classes and Instances
-This problem will be starting off relatively simple.
+This problem will be starting off relatively simple, implementing some methods and attributes for a `Movie` class.
 
 ## Problem
 For the problem, you will be writing a `Movie` class. Instances of this class will have attributes such as `title` and `release_date`, along with a few methods. There is a stub for your `Movie` class in [problem.py](./problem.py) for you to fill in.
