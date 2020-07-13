@@ -16,19 +16,19 @@ For all examples below, assume an instance of `Movie` is created like this:
 
 1. Write an `__init__` method that stores the arguments for 3 parameters (`title`, `rating`, `release_date`, and `summary`) as attributes. The attributes should have the same names as the parameters. This will allow usage of an instance of the class like shown below.
 
-```py
->>> endgame.title
-'Avengers: Endgame'
->>> endgame.release_date
-datetime.date(2019, 4, 26)
-```
+    ```py
+    >>> endgame.title
+    'Avengers: Endgame'
+    >>> endgame.release_date
+    datetime.date(2019, 4, 26)
+    ```
 
 2. Let's create a method for this class. We will call this new method `info`. The `info` method will return information on the movie, including the title, rating, release date, and summary. The output of the info method should exactly match the follow format:
 
-```py
->>> print(endgame.info())
-Title: Avengers: Endgame
-Rating: 9.5
-Release date: April 26, 2019
-Summary: The Avengers' final showdown with Thanos.
-```
+    ```py
+    >>> print(endgame.info())
+    Title: Avengers: Endgame
+    Rating: 9.5
+    Release date: April 26, 2019
+    Summary: The Avengers' final showdown with Thanos.
+    ```
