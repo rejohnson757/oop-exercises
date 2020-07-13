@@ -7,3 +7,12 @@ class Movie:
         release_date (datetime.date): The date the movie was released
         summary (str): A short summary of the movie
     """
+
+    def __init__(self, title, rating, release_date, summary):
+        pass
+
+    def info(self):
+        pass
+
+    def released_for(self):
+        pass
