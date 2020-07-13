@@ -10,9 +10,3 @@ class Movie:
 
     def __init__(self, title, rating, release_date, summary):
         pass
-
-    def info(self):
-        pass
-
-    def released_for(self):
-        pass
