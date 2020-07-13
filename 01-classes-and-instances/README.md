@@ -1,5 +1,5 @@
 # Classes and Instances
-This problem will be starting off simple, only dealing with classes and instances.
+This problem will be starting off relatively simple.
 
 ## Problem
 For the problem, you will be writing a `Movie` class. Instances of this class will have attributes such as `title` and `release_date`, along with a few methods. There is a stub for your `Movie` class in [problem.py](./problem.py) for you to fill in.
@@ -21,4 +21,14 @@ For all examples below, assume an instance of `Movie` is created like this:
 'Avengers: Endgame'
 >>> endgame.release_date
 datetime.date(2019, 4, 26)
+```
+
+2. Let's create a method for this class. We will call this new method `info`. The `info` method will return information on the movie, including the title, rating, release date, and summary. The output of the info method should exactly match the follow format:
+
+```py
+>>> print(endgame.info())
+Title: Avengers: Endgame
+Rating: 9.5
+Release date: April 26, 2019
+Summary: The Avengers' final showdown with Thanos.
 ```

@@ -13,3 +13,11 @@ class Movie:
         self.rating = rating
         self.release_date = release_date
         self.summary = summary
+
+    def info(self):
+        return (
+            f'Title: {self.title}\n'
+            f'Rating: {self.rating}\n'
+            f'Release date: {self.release_date.strftime(r"%B %d, %Y")}\n'
+            f'Summary: {self.summary}'
+        )
