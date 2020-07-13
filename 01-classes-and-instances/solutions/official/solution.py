@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Movie:
     """Represents a movie.
 
@@ -21,3 +24,6 @@ class Movie:
             f'Release date: {self.release_date.strftime(r"%B %d, %Y")}\n'
             f'Summary: {self.summary}'
         )
+
+    def released_for(self):
+        return date.today() - self.release_date

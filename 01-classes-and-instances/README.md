@@ -32,3 +32,10 @@ For all examples below, assume an instance of `Movie` is created like this:
     Release date: April 26, 2019
     Summary: The Avengers' final showdown with Thanos.
     ```
+
+3. We will create one more method for our `Movie` class. It will be called `released_for` and it will return a `datetime.timedelta` object representing how many days have passed since the movie was released (days was calculated when this was written, so it may be different for you).
+
+    ```py
+    >>> endgame.released_for()
+    datetime.timedelta(days=444)
+    ```
