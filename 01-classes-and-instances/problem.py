@@ -9,4 +9,7 @@ class Movie:
     """
 
     def __init__(self, title, rating, release_date, summary):
-        pass
+        self.title = title
+        self.rating = rating
+        self.release_date = release_date
+        self.summary = summary
