@@ -13,3 +13,7 @@ class Movie:
         self.rating = rating
         self.release_date = release_date
         self.summary = summary
+    def info(self):
+        return 
+
+details = Movie('Avengers Endgame', 9.5, 'April 26, 2019', 'Avengers\' final showdown with Thanos.')
