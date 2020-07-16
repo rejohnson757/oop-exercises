@@ -15,8 +15,7 @@ class Movie:
         self.release_date = release_date
         self.summary = summary
     def info(self):
-        return f'Title: {self.title}\nRating: {self.rating}\nRelease date: {self.release_date.strftime(r"%B %d, %Y")}
-        \nSummary: {self.summary}'
+        return f'Title: {self.title}\nRating: {self.rating}\nRelease date: {self.release_date.strftime(r"%B %d, %Y")}\nSummary: {self.summary}'
         
 #if __name__ == '__main__':
     
