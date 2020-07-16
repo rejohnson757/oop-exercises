@@ -1,3 +1,4 @@
+import datetime
 class Movie:
     """Represents a movie.
 
@@ -14,6 +15,10 @@ class Movie:
         self.release_date = release_date
         self.summary = summary
     def info(self):
-        return 
+        return f'Title: {self.title}\nRating: {self.rating}\nRelease date: {self.release_date.strftime(r"%B %d, %Y")}\nSummary: {self.summary}'
+        
+#if __name__ == '__main__':
+    
+    #details = Movie('Avengers: Endgame', 9.5, datetime.date(2019, 4, 26), "The Avengers\' final showdown with Thanos.")
 
-details = Movie('Avengers Endgame', 9.5, 'April 26, 2019', 'Avengers\' final showdown with Thanos.')
+    #print(details.info())
