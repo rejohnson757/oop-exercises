@@ -16,9 +16,14 @@ class Movie:
         self.summary = summary
     def info(self):
         return f'Title: {self.title}\nRating: {self.rating}\nRelease date: {self.release_date.strftime(r"%B %d, %Y")}\nSummary: {self.summary}'
-        
-#if __name__ == '__main__':
+    def released_for(self):
+        dt_now = datetime.date.today()
+        dt_release = self.release_date
+        return dt_now - dt_release
+         
+if __name__ == '__main__':
     
-    #details = Movie('Avengers: Endgame', 9.5, datetime.date(2019, 4, 26), "The Avengers\' final showdown with Thanos.")
+    details = Movie('Avengers: Endgame', 9.5, datetime.date(2019, 4, 26), "The Avengers\' final showdown with Thanos.")
 
-    #print(details.info())
+    print(details.info())
+    print(details.released_for())
